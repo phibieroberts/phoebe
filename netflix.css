@@ -1,0 +1,571 @@
+@media only screen and (min-width:1000px){
+
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+
+}
+.container{
+    background:black;
+    background-size: cover;
+    height:600px;
+    z-index:-1;
+    color: white;
+margin-top: 0;
+opacity: 0.9;
+margin-bottom: 80px;
+
+}
+.up{
+    color:white;
+}
+h1{
+
+    color: red;
+    position: relative;
+    left:20px;
+    top:20px;
+    font-size: 40px;
+    font-style: graphique;
+}a{
+    float:right;
+}
+.mid{
+    text-align: center;
+    position: relative;
+    top:30%;
+    font-size: 30px;
+    font-weight: bold;
+    
+
+}
+input {
+height: 53px;
+width: 40%;
+border:0;
+}
+.btn{
+   
+    background-color: red;
+    position: relative;
+    left:-8px;
+   color:white;
+   font-size: 18px;
+   padding-top: 0px;
+    width: 14%;
+    height:53px; 
+    border:0px;
+    text-decoration: none;
+    top:1px;
+
+
+}
+.box a{
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: lighter;
+    padding-top:10px;
+    text-align: center;
+}
+.sign a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top:-15px;
+    right:60px;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    padding-top:5px;
+    border-radius: 5px;
+    
+}
+.watch{
+    margin-top: 0px;
+    position: relative;
+    right:100px;
+}
+::placeholder{
+ padding: 10px;   
+ font-size: 16px;
+}
+.Grid{
+    display: grid;
+	grid-template-columns:1fr 800px  ;
+	grid-template-rows:   1fr ;
+    grid-gap:20px;
+	grid-template-areas: 
+    ". enjoy img ."
+    ". line2 line2 ."
+    ". img2  download ."
+    ". line3 line3 ."
+    ;
+	
+
+}
+.enjoy{
+    grid-area: enjoy;
+    color: white;
+    margin-left: 100px;
+    position: relative;
+    top: 40px;
+}
+.img{
+    grid-area: img;
+    bottom: 80px;
+    height:200px;
+    width:400px;
+
+}
+.img2{
+    grid-area:img2 ;
+    height:200px;
+    width:400px;
+
+}
+.download{
+    grid-area: download;
+    color: white;
+    bottom: 100px;
+}
+.line{
+    border: 0px solid gray;
+    height: 5px;
+    width:100%;
+    background-color: rgb(36, 35, 35);
+    position: relative;
+    top:58%;
+}
+.line2{
+    grid-area: line2;
+    border: 0px solid gray;
+    height: 5px;
+    width:100%;
+    background-color: rgb(36, 35, 35);
+    top:110%;
+}
+.line3 {
+    grid-area: line3;
+        border: 0px solid gray;
+        height: 5px;
+        width:100%;
+        background-color: rgb(36, 35, 35);
+        position: relative;
+        top:30%;}
+        .line4 {
+            border: 0px solid gray;
+            height: 5px;
+            width:100%;
+            background-color: rgb(36, 35, 35);
+            position: relative;
+            top:30%;
+            margin-top: 60px;}
+        
+         .me{
+           background-color: rgb(29, 28, 28);
+           border: 1px solid  rgb(29, 28, 28);
+           margin-bottom: 5px;
+           color:white;
+           font-weight: bold;
+        
+        }
+       .email{
+           position: relative;
+           left: 30%;
+           width:25%;
+
+       }
+       .btn2{
+        height: 43px;
+        background-color: red;
+        position: relative;
+        right: 30%;
+        top:0px;
+        width: 15%;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        }
+        .btn2, a{
+            color:white;
+            padding-top: 10px;
+        
+
+        }
+        h4{
+            margin-top: 40px;
+           ;
+        }
+        .questions{
+            width: 100%;
+        }
+    
+   ul{
+       color:white;
+       display: inline;
+       list-style-type: none;
+
+   
+   }
+   li{
+       margin-top:10px;
+   }
+   .Grid2{
+    display: grid;
+	grid-template-columns: 1fr 200px 200px 200px 200px 1fr ;
+	grid-template-rows:   1fr ;
+    grid-gap:30px;
+	grid-template-areas: 
+    ". one two three four ."
+   
+    
+    ;
+   }
+
+   .one{
+    grid-area: one;
+
+    
+   }
+   .two{
+      grid-area: two;
+      
+   }
+.three{
+  grid-area: three;
+}
+.four{
+ grid-area: four;
+}
+h3{
+    color:white;
+    margin-left: 218px; 
+    margin-top: 30px;
+}
+}
+    @media only screen and (max-width:999px){
+        *{
+            margin: 0;
+            padding: 0;
+            margin-top: 0;
+            width: 100%;
+        
+        }
+        body{
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            margin-top: 0;
+            width: 100%;
+            font-size: 16px;
+        
+        }
+        .container{
+            background:black;
+            background-size: cover;
+            height:400px;
+            z-index:-1;
+            color: white;
+        margin-top: 0;
+        opacity: 0.9;
+        margin-bottom: 20px;
+        width: 100%;
+        
+        }
+        .net{
+            color: red;
+            position: relative;
+            top:5px;
+            left:15px;
+            font-size: 20px;
+            font-style: graphique;
+        }
+        h1{
+
+            color: red;
+            position: relative;
+           
+            font-size: 20px;
+            font-style: graphique;
+        }a{
+            float:right;
+        }
+        .mid{
+            text-align: center;
+           margin-top: 85px;
+            font-size: 18px;
+            font-weight: bold;
+            
+        
+        }
+        input {
+        height: 50px;
+        width: 85%;
+        margin-left:3px;
+        margin-top: 60px;
+
+
+        
+        }
+        .btn{background-color: red;
+            position: relative;
+            top:10px;
+            right:4px;
+           color:white;
+           font-size: 18px;
+           padding-top: 0px;
+            width: 40%;
+            height:52px;
+            border:0px;
+            text-decoration: none;
+        
+        
+        
+        }
+        .box a{
+            color:white;
+            font-size: 30px;
+            text-decoration: none;
+            font-weight: lighter;
+            padding-top:10px;
+            text-align: center;
+        }
+        .sign a{
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            position: relative;
+            top:-15px;
+            right:15px;
+            height: 25px;
+            width: 80px;
+            text-align: center;
+            padding-top:5px;
+            border-radius: 5px;
+            
+        }
+        .watch{
+            margin-top: 0px;
+            position: relative;
+            left:5px;
+        }
+        ::placeholder{
+         padding: 10px;   
+         font-size: 16px;
+        }
+        
+        .Grid{
+            display: grid;
+            grid-template-columns:400px  ;
+            grid-template-rows:   1fr ;
+            grid-gap:20px;
+            grid-template-areas: 
+            " enjoy "
+            "img "
+            "line2"
+             "download"
+             " img2";
+            
+        
+        }
+        .enjoy{
+            grid-area: enjoy;
+            color: white;
+            text-align: center;
+            width:80%;
+            margin-bottom: 0;
+            margin-left:20px;
+
+           
+        }
+        .img{
+            grid-area: img;
+            height:200px;
+             width:70%;
+             margin-left:40px;
+        
+        }
+        .img2{
+            grid-area:img2 ;
+            height:200px;
+            width:70%; 
+            margin-left:40px;
+       
+        }
+        .download{
+            grid-area: download;
+            color: white;
+            margin-bottom: 20px;
+            text-align: center;
+            width:80%;
+            margin-left:20px;
+
+
+          
+        }
+    
+        .line{
+            border: 0px solid gray;
+            height: 5px;
+            width:100%;
+            background-color: rgb(36, 35, 35);
+            position: relative;
+            top:-10%;
+        }
+        .line2{
+            grid-area: line2;
+            border: 0px solid gray;
+            height: 5px;
+            width:90%;
+            background-color: rgb(36, 35, 35);
+            top:110%;
+        }
+        .line3 {
+            grid-area: line3;
+                border: 0px solid gray;
+                height: 5px;
+                width:100%;
+                background-color: rgb(36, 35, 35);
+                position: relative;
+                margin-top: 20px;
+        }
+                .line4 {
+                    border: 0px solid gray;
+                    height: 5px;
+                    width:100%;
+                    background-color: rgb(36, 35, 35);
+                    position: relative;
+                    top:30%;
+                    margin-top: 60px;}
+                
+                 .me{
+                   background-color: rgb(29, 28, 28);
+                   border: 1px solid  rgb(29, 28, 28);
+                   margin-bottom: 5px;
+                   color:white;
+                   font-weight: bold;
+                   margin:5px;
+                   width: 100%;
+                
+                }
+               .email{
+                   position: relative;
+                   left: 9%;
+                   width:80%;
+        
+               }
+               .btn2{
+                height: 32px;
+                background-color: red;
+                position: relative;
+                right: 30%;
+                top:6px;
+                width: 40%;
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: 20px;
+                }
+                .btn2, a{
+                    color:white;
+                    position: relative;
+                    
+                
+        
+                }
+                .up{
+                    position: relative;
+                    top: -160px;
+                    text-align: center;
+  
+                }
+                h4{
+                    margin-top: 40px;
+                   
+                }
+                .questions{
+                    width: 100%;
+                }
+                .contact{
+                    color:white;
+            
+                }
+               
+   .Grid2{
+    display: grid;
+	grid-template-columns: 150px  ;
+	grid-template-rows:   1fr ;
+    grid-gap:5px;
+    margin-left: 1px;
+	grid-template-areas: 
+    "one two"
+    "three four"
+   
+    
+    ;
+   }
+
+   .one{
+    grid-area: one;
+    color: white;
+
+    
+   }
+   .two{
+      grid-area: two;
+      color: white;
+   }
+.three{
+  grid-area: three;
+  color: white;
+}
+.four{
+ grid-area: four;
+ color: white;
+}
+ul{
+    color:white;
+    display: inline;
+    list-style-type: none;
+
+
+}
+li{
+    margin-top:10px;
+    font-size: 16px;
+}
+h4{
+    margin-top: 40px;
+    font-size: 16px;
+   
+}
+.questions{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 35px;
+    font-size: 18px;
+    
+}
+h3{
+    color: white;
+    font-size: 16px;
+   
+}
+.read{
+    position: relative;
+    top: -200px;
+}
+}
+    
