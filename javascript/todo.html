@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <link href="look.js" rel="stylesheet">
+        <title></title>
+        <style>
+            .container{
+                position: relative;
+                top: 100px;
+                opacity: 0.8;
+            }
+            body{
+                background-image: url("me.jpg");
+                background-size: cover;
+            }
+   
+            #my-form{ padding: 40px;
+            background: #fdf4f4;
+            width:30%;
+            position: relative;
+            left:30%;
+            top:60%;
+            text-align: center;
+        
+            }
+            #my-form label{
+                display: block;
+            }
+            #my-form input[type="text"]{
+                width: 50%;
+                height:40px;
+        text-align: center;
+
+        
+            }
+            #my-form input[type="submit"]{
+         position: relative;
+         left:160px;
+        
+            }
+            .btn{
+                display: block;
+                width: 20%;
+                padding: 10px 15px;
+                background: teal;
+                color:whitesmoke;
+                border: 0px solid black;
+
+                
+            }
+            .bg-dark{
+                background: #333;
+                color: black;
+            }
+            .items{
+                list-style-type: none;
+                padding: 10px;
+               
+            
+                
+            }
+            ul{
+                list-style-type: none;
+               
+               
+                padding: 5px;
+                margin: 5px 0; 
+            }
+            ul li{
+                padding: 5px;
+                margin: 5px 0;
+            }
+            .error{
+               background :teal;
+               color: cornsilk;
+               padding: 5px;
+               margin:5px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <section class="container">
+            <form id="my-form">
+                <h1>Add TODO</h1>
+                <div class="msg"></div>
+            <div>
+            <label for="name"></label><br>
+            <input type="text" id="task" placeholder="add item">
+            
+            <p><input class="btn" type="submit" value="Add"></p>
+        </div>
+            
+            
+            <ul id="items"></ul>
+            <button type="button" style="display: none;" class=""  id="delete" onclick="todoDelete();">Delete</button>
+            
+        </form>
+            
+            
+            </section>
+        </div>
+    <script src="look.js">
+  
+  </script>
+    </body>
+</html>
